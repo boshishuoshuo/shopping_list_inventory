@@ -8,7 +8,9 @@
 .buildlog/
 .history
 .svn/
-/ios/
+ios/
+ios/Runner.xcodeproj/project.pbxproj
+ios/Runner.xcworkspace/contents.xcworkspacedata
 
 # IntelliJ related
 *.iml
