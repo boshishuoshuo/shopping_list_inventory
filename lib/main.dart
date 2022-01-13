@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import './screens/tabs_screen.dart';
 
@@ -17,6 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
         primaryColorLight: Colors.deepOrange[400],
+        textTheme: TextTheme(
+          bodyText2: GoogleFonts.notoSans(fontSize: 14),
+        ),
       ),
       home: const TabsScreen(),
     );

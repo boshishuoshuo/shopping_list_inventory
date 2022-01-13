@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import './inventory_screen.dart';
 import './shopping_screen.dart';
@@ -42,6 +43,8 @@ class _TabsScreenState extends State<TabsScreen> {
           currentIndex: _selectedIndex,
           selectedIconTheme:
               IconThemeData(color: Theme.of(context).primaryColorLight),
+          selectedLabelStyle: GoogleFonts.notoSans(fontSize: 12),
+          unselectedLabelStyle: GoogleFonts.notoSans(fontSize: 12),
           onTap: _onItemTapped,
         ),
       ),
