@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 
 import './screens/tabs_screen.dart';
+import './providers/inventory_data.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,10 @@ class MyApp extends StatelessWidget {
           bodyText2: GoogleFonts.notoSans(fontSize: 14),
         ),
       ),
-      home: const TabsScreen(),
+      home: ChangeNotifierProvider(
+        create: (context) => InventoryData(),
+        child: const TabsScreen(),
+      ),
     );
   }
 }

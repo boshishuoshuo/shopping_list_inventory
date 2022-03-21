@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../inventory/inventory_list.dart';
+
 class InventoryScreen extends StatefulWidget {
   const InventoryScreen({Key? key}) : super(key: key);
 
@@ -10,6 +12,10 @@ class InventoryScreen extends StatefulWidget {
 class _InventoryScreenState extends State<InventoryScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Stack(
+      children: const [
+        InventoryList(),
+      ],
+    );
   }
 }
