@@ -16,7 +16,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.milk_bottle),
       ),
       inventoryQuant: 2,
-      purchaseDate: DateTime.parse('2022-01-18'),
+      purchaseDate: DateTime.parse('2022-03-18'),
       shelfLife: const Duration(days: 15),
     ),
     InventoryItem(
@@ -27,7 +27,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.milk_bottle),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-06'),
+      purchaseDate: DateTime.parse('2022-03-06'),
       shelfLife: const Duration(days: 10),
     ),
     InventoryItem(
@@ -38,7 +38,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.fruit),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-12'),
+      purchaseDate: DateTime.parse('2022-03-12'),
       shelfLife: const Duration(days: 8),
     ),
     InventoryItem(
@@ -49,7 +49,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.fruit),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-12'),
+      purchaseDate: DateTime.parse('2022-03-12'),
       shelfLife: const Duration(days: 8),
     ),
     InventoryItem(
@@ -60,7 +60,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.bread),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-26'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 7),
     ),
     InventoryItem(
@@ -82,7 +82,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.rice),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-24'),
+      purchaseDate: DateTime.parse('2022-03-14'),
       shelfLife: const Duration(days: 180),
     ),
     InventoryItem(
@@ -93,7 +93,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.rice),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 180),
     ),
     InventoryItem(
@@ -104,7 +104,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.salt),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 180),
     ),
     InventoryItem(
@@ -115,7 +115,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.fish),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 7),
     ),
     InventoryItem(
@@ -126,7 +126,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.meat),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 30),
     ),
     InventoryItem(
@@ -137,7 +137,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.meat),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 40),
     ),
     InventoryItem(
@@ -148,7 +148,7 @@ class InventoryData with ChangeNotifier {
         categoryIcon: const Icon(CustomIcons.vegetable),
       ),
       inventoryQuant: 1,
-      purchaseDate: DateTime.parse('2022-01-20'),
+      purchaseDate: DateTime.parse('2022-03-20'),
       shelfLife: const Duration(days: 5),
     ),
   ];
