@@ -9,6 +9,14 @@ class InventorySliverItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(inventoryItem.name);
+    return Card(
+      child: ListTile(
+        leading: Icon(Icons.circle),
+        title: Text(inventoryItem.name),
+        subtitle: Text('you have ${inventoryItem.inventoryQuant} in stock'),
+      ),
+      elevation: 2.0,
+      margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 12),
+    );
   }
 }
